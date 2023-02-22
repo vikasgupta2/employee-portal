@@ -1,0 +1,36 @@
+.thankyou-container{
+    height: 100vh;
+    background-image: url("https://i.ibb.co/txqB3fS/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-thank-you{
+    height: 40vh;
+    background-color: rgb(252, 253, 253);
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(194, 194, 208);
+    border-style: solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.para-thank{
+    text-align: center;}
+
+.thank-btn{
+    align-self: center;
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 20px;
+    /* border-width: 0px; */
+    border-color: rgba(139, 182, 168, 0.95);
+    background-color: rgb(6, 157, 245);
+    border-radius: 5px;
+    cursor: pointer;
+}

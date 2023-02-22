@@ -1,0 +1,105 @@
+.main-container{
+    height: 100vh;
+    background-image: url("https://i.ibb.co/txqB3fS/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-container{
+    height: 80vh;
+    width: 70vh;
+    /* border-width: 2px;
+    border-color: black;
+    border-style: dashed; */
+  }
+  .right-container{
+    height: 82vh;
+    width: 70vh;
+    padding-left: 10px;
+    border-width: 2px;
+    border-color: black; 
+    /* border-style: dashed; */
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .login-password{
+    height: 75vh;
+    width: 65vh;
+  }
+  .login-container{
+    padding-top: 20px;
+   
+  }
+  .heading{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 40px;
+    
+  }
+  .paragraph{
+    color: rgb(6, 6, 78);
+    font-weight: 500;
+    font-size: 28px;
+    
+  }
+  .email-label{
+    font-size: 22px;
+    font-family: sans-serif;
+  
+    
+  }
+  .password-label{
+    font-size: 22px;
+    font-family: sans-serif;
+  
+    
+  }
+  .input-container{
+    padding: 10px;
+    padding-left: 0px;
+  }
+ 
+  .email-input{
+    height: 40px;
+    width: 350px;
+    border-width: 1px;
+    border-color: rgba(168, 154, 154, 0.556);
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  .password-input{
+    height: 40px;
+    width: 350px;
+    border-width: 1px;
+    border-color: rgba(168, 154, 154, 0.556);
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  .btn{
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 170, 255);
+    font-size: 23px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* border-width: 0px; */
+    border-color: rgb(0, 170, 255);;
+    cursor: pointer;
+    
+    
+  }
+  .create-new-account-btn{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin-left: 60px;
+    font-weight: 500;
+    
+  }
